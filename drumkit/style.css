@@ -1,0 +1,63 @@
+html {
+    font-size: 10px;
+    background: url('https://i.pinimg.com/originals/f5/53/94/f5539494031680cc445792b8a127e680.jpg') no-repeat center center fixed;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.key {
+    border: .4rem solid rgba(0, 0, 0, 0.5); /* 1 rem = 16px*/
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    width: 10rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 1rem #289dc0;
+    color: white;
+    transition: all .07s;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+#title {
+    position: relative;
+    left: 10%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: rgb(243, 243, 243);
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    padding: 4px;
+    width: 80%;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+#instructions {
+    font-size: 2.5rem;
+    color: rgb(243, 243, 243);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    border: 4px inset rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
